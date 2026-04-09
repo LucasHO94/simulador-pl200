@@ -4931,23 +4931,23 @@ export const questionsData = [
     },
     {
         "id": "q234_topic1",
-        "text": "A tabela nativa de 'Anexos' está cobrando milhares de dólares mensais pelo Gigabyte no Dataverse limit da sua empresa. Qual a prática arquitetural Microsoft OOTB para sanar o custo dos PDFs pesados?",
+        "text": "A tabela nativa de 'Anexos' está cobrando milhares de dólares mensais pelo Gigabyte no Dataverse da sua empresa. Qual a prática arquitetural nativa para sanar o custo do armazenamento de arquivos pesados (PDFs)?",
         "options": [
-            "Criar um Power Automate para deletar todos os arquivos.",
-            "Limitar o tamanho base da coluna em 1mb.",
-            "Habilitar a integração nativa com o SharePoint e hospedar lá.",
-            "Comprar add-ons de Capacity Database Limit."
+            "Criar um Power Automate para deletar todos os arquivos físicos mensalmente.",
+            "Limitar o tamanho base da coluna anexos em 1mb corporativo.",
+            "Habilitar a integração com o SharePoint e hospedar os documentos nele.",
+            "Adquirir pacotes adicionais de Capacity Database para toda equipe."
         ],
         "correctAnswer": 2,
         "explanation": {
-            "intro": "Gerenciamento de Capacity (Storage) Padrão Microsoft.",
-            "papoReto": "Dataverse é banco premium! É caro colocar PDF nele. A melhor forma de salvar a carteira da firma é mandar a integração nativa colocar os arquivos pesados de graça no SharePoint da empresa.",
-            "respostaCerta": "Habilitar a integração nativa com o SharePoint e hospedar lá.",
-            "puloDoGato": "O Tenant do M365 fornece vasto Terabytes de Document File Storage. A OOTB SharePoint integration move o tráfego da Note/Attachment table para as Bibliotecas Documentais do SP.",
+            "intro": "Gerenciamento de Capacity (Storage) da Microsoft.",
+            "papoReto": "Dataverse é um banco premium super tunado. Ficar guardando PDF nele sai caro! A jogada clássica é plugar a integração nativa com o SharePoint (que já tem espaço sobrando na nuvem do M365) e descarregar esses anexos de lá de graça.",
+            "respostaCerta": "Habilitar a integração com o SharePoint e hospedar lá.",
+            "puloDoGato": "A funcionalidade OOTB de SharePoint Integration move a gestão documental (File Capacity) da infraestrutura onerosa do Dataverse para os sites do SharePoint.",
             "cascasDeBanana": [
-                "Deletar histórico é crime corporativo na maioria das vezes, péssima opção em arquitetura."
+                "Excluir documento cego para poupar espaço é violação de retenção legal. Focar em escalabilidade sustentável."
             ],
-            "dicaOuro": "Custo absurdo de HD/File Capacity no Power Platform? Migra pros Documentos no SharePoint Integrado!"
+            "dicaOuro": "Armazenamento no Dataverse explodindo por causa de arquivos e fotos? = Transfira a carga ativando a Integração MS SharePoint!"
         }
     },
     {
@@ -5183,107 +5183,107 @@ export const questionsData = [
     },
     {
         "id": "q246_topic1",
-        "text": "Para gerar uma cotação visualmente impressionante no Dynamics 365, um consultor precisa fundir os Modelos Nativos do M365 com os registros do Dataverse. Qual é o OOTB format limit para montar isso sem custom code num único botão M365 limit?",
+        "text": "Para gerar uma cotação contratual pré-preenchida no Dynamics 365, um consultor precisa mesclar um papel de fundo (Cabeçalho do cliente) com os registros do sistema (Nome, Endereço). Sem uso de códigos, como estruturar isso no sistema?",
         "options": [
-            "Word Templates (Modelos de Word Populated limit).",
-            "Power BI Dashboards em PDF.",
-            "Power Pages Email Templates estáticos.",
-            "Export Dataflows M365 Limit."
+            "Modelos do Microsoft Word (Word Templates).",
+            "Dashboards do Power BI exportados para PDF.",
+            "Portal Web usando Liquid Templates.",
+            "Envio nativo via Dataflows."
         ],
         "correctAnswer": 0,
         "explanation": {
-            "intro": "Confiabilidade da ferramenta do pacote M365 Office nas Solutions limit OOTB.",
-            "papoReto": "Você quer aquele botão maroto 'Gerar Certificado em PDF' que magicamente bota a logo da empresa, o CPF, Nome todo e data, arrumado perfeitamente numa lauda padrão? Model-driven usa Modelos Nativos baseados nos Tags limit do Microsoft Word.",
-            "respostaCerta": "Word Templates (Modelos Nativos).",
-            "puloDoGato": "The OOTB feature consists of Map-Data Field logic where the System XML Mapper injects the relational field payload straight inside Content Control limits inside Word Office limit.",
+            "intro": "Integração nativa MS Office Document Generation.",
+            "papoReto": "Geração de layout tradicional em papel (ofício, recíbo, cotação ou contrato) no CRM de um clique sem programador é feito pegando um modelo montado do Word e injetando as tags (campos do CRM) ali dentro usando as rotinas de XML do pacote Word Template.",
+            "respostaCerta": "Modelos do Microsoft Word (Word Templates).",
+            "puloDoGato": "Dynamics implementa geração de documentos mapeando esquemas de XML via Content Controls providos por um 'Word Template' cadastrado no CRM.",
             "cascasDeBanana": [
-                "Dashboard Power BI não resolve casos transacionais isolados de documentos formais contratuais M365 limit."
+                "Power BI e Dataflows não emitem folhas em formatação A4 personalizada unitária para documentos soltos instantâneos de usuário."
             ],
-            "dicaOuro": "Cotações Ricas num clique M365 com marcação OOTB = Microsoft Word Templates Limit M365."
+            "dicaOuro": "Documento oficial formatado com 1 clique (Aprovado com logo da firma) = Word Templates!"
         }
     },
     {
         "id": "q247_topic1",
-        "text": "Você criou um Painel de Insights gerencial e precisa adicionar Componentes baseados em código no Power Apps Component Framework (PCF) para um gráfico pirâmide não existente. Como são distribuídos formalmente os PCFs da Microsoft AppSource?",
+        "text": "Como devem ser formalmente distribuídos (entre ambientes de DEV e PROD) os Componentes customizados programados pela equipe via Power Apps Component Framework (PCF)?",
         "options": [
-            "Via Power Automate flows triggers limit.",
-            "Injetados diretamente em CSS limit na View OOTB do modelo.",
-            "Distribuidos e empacotados dentro do Limit de uma Solution (.ZIP M365 System).",
-            "Via Executable PowerShell OOTB Run."
+            "Injetados fisicamente via Custom HTML em recursos web nativos.",
+            "Disparados por requisições HTTP do Power Automate.",
+            "Empacotados obrigatoriamente dentro de uma Solução (.zip).",
+            "Executados por gatilhos do Microsoft Flow."
         ],
         "correctAnswer": 2,
         "explanation": {
-            "intro": "Ciclo de vida do MS Power Apps Component Framework Nativas limits.",
-            "papoReto": "Mano, os super botões programados no PCF não andam soltos voando pra instalar via Setup.exe. A MS entuba tudo pacotinho formal de Solution no Dynamics Limit.",
-            "respostaCerta": "Dentro do formato empacotado limit Solution zip M365.",
-            "puloDoGato": "Code components are Solution-Aware Limit M365 assets and inherently handled over environments via ALM Standard limits Solutions Nativas zip.",
+            "intro": "Ciclo de vida do MS Power Apps Component Framework no ALM.",
+            "papoReto": "Qualquer botão mágico programado que fugiu do Studio visual (seja PCF ou Plugin), anda pela esteira de promoção embrulhado e empacotado rigidamente dentro do formato '.ZIP' Oficial de uma 'Solution'. Lógica de fora só sobe engarrafada na Solução.",
+            "respostaCerta": "Empacotados dentro de uma Solution zipável nativa.",
+            "puloDoGato": "Os Code components são ativos puramente 'Solution-Aware'. O único suporte válido oficial de transporte inter-environment de PCF é injetando-os nos Solution Packages.",
             "cascasDeBanana": [
-                "Injects na unha? A Microsoft bloqueia Custom scripts DOM nas UI do Dynamics M365 para segurança limit System."
+                "Achar que recursos compilados front-end fogem do padrão ZIP e são copiados nativamente (como códigos abertos HTTP ou JS clássicos)."
             ],
-            "dicaOuro": "Qualquer componente Avançado Code (PCF) System Nativas = Anda Obrigatoriamente na carona limit zip da 'SOLUTION'!"
+            "dicaOuro": "Criou código avulso UI na Plataforma (PCF)? Trate igual a tela: Embarque-o na Solução para poder Mover!"
         }
     },
     {
         "id": "q248_topic1",
-        "text": "Diferencie Limit System Cloud de Dynamics. O usuário X recebe status limit 'Active' no Azure AD, tem licença Office E3. Porem, no Dynamics Env Environment o Admin vê ele OOTB como 'Desativado/Disabled limit'. Que motivo causou isso?",
+        "text": "Um funcionário ativo no Entra ID e com a licença apropriada Dynamics atribuída está invisível da plataforma M365 CRM e consta como 'Desativado' na tabela interior do Ambiente Dataverse. Qual é o impedimento do acesso?",
         "options": [
-            "A Licença do Microsoft Entra dele é inadequada System limit OOTB para o aplicativo Pura Dynamics App.",
-            "A falta de assinalamento M365 de um Security Role (Perfil de Segurança) dentro do Environment no Dataverse limit OOTB Nativas.",
-            "Bloqueios limits Regionais Geopolíticos Azure Pura.",
-            "Diferença Limit de Fusos OOTB no Relógio limit MS Browser."
+            "Seu navegador não autenticou tokens primários.",
+            "Ausência de atribuição explícita de um Perfil de Segurança (Security Role) nele.",
+            "Bloqueios de conectividades em roteadores Dataverse.",
+            "Diferenciamento de Fusos Horários em relógios locais."
         ],
         "correctAnswer": 1,
         "explanation": {
-            "intro": "Condicionais Limit de OOTB Entra ID Sync Limit Dynamics M365 Security limits.",
-            "papoReto": "Pra você entrar num Dataverse limit App não basta tu ser funcionário ativo Limits Nativas M365 com senha funcionando. Se nenhum chefe botar OOTB uma farda (Security Role) de 'Basic User limit M365' em você, a conta vai hibernar e bloquear MS com Erro Crítico até avisar System a galera Pura limit.",
-            "respostaCerta": "A falta Assinalada MS System de App Security Role System limit Limit OOTB Dataverse limit M365 Pura no limit Portal.",
-            "puloDoGato": "Dataverse automatically Disable users M365 who limits M365 System Nativas Nuvem OOTB have zero Security Ouro Roles M365 Assigned inside Limit Limit System Nuvem Environment limit System limit limits Nuvem M365.",
+            "intro": "Arquitetura fundamental de Dataverse Security Identity.",
+            "papoReto": "Pra você ter sua chavinha liberada para transitar no Dataverse você precisa de três coisas: Usuário Azure AD, Licença Microsoft, e o mais fatal de todos: Uma CAMISA de PERMISSÃO DE SISTEMA. Se tu esquecer de dar 'Security Role' pro camarada, o CRM tranca a conta e o deixa desativado.",
+            "respostaCerta": "Ausência de Perfil de Segurança (App Security Role) dentro da Tabela Security.",
+            "puloDoGato": "O Ambiente entra em Security Freeze para um Record user sincado do Azure se o mesmo mantiver ZERO assigned Roles, retornando estado 'Disabled' internamente por design de segurança blindada.",
             "cascasDeBanana": [
-                "Culpar The AD limits OOTB ou Tenants. O AD sync M365 System está sadio, por isso o record apareceu Limsit Null MS."
+                "Atribuir culpa de Sync do locatário (Tenant). A flag Disabled interna no Dataverse sempre reflete ausência de concessões em Security Roles para registros de licença."
             ],
-            "dicaOuro": "Login bloqueado em um só Dynamics System OOTB limit System Null? = Faltou dar Role e Permissão MS System Ouro Pura de segurança OOTB limit System Dataverse Nativas M365 limit!"
+            "dicaOuro": "Usuário com tudo pago, Entra ID Verde mas 'Desabilitado' no Dynamics? Conceda uma Role de Segurança para habilitá-lo."
         }
     },
     {
         "id": "q249_topic1",
-        "text": "Onde Limit você Pura Limit limits Nativas System Null System aloca uma 'Environment Variable M365 System Nuvem Dataverse limits limits System' nativa para System Nuvem Cega M365 que Limits Nativas uma OOTB equipe M365 Null Custom Pura de Limits desenvolvedores Pura System Dynamics Nuvem OOTB Nativas App limit Nativas possa utilizar Pura Nativas Limit Nuvem em Limit fluxos Limits Nativas System Automate M365 MS OOTB limit Pura Limit ?",
+        "text": "Em qual cenário arquitetural a administração deve inserir/criar 'Variáveis de Ambiente' (Environment Variables) visando suportar a transação limpa do Dynamics App do programador para o ambiente principal?",
         "options": [
-            "Painel Dataverse Nativas Security Groups Pura.",
-            "Dentro da Solution (Soluções limits Pura) Limit Power Limits M365 Platform System limits Makers.",
-            "Abaixo Nuvem do M365 Tenant MS Nativas Limit Settings System limits Pura OOTB Limit.",
-            "No Config OOTB M365 Limits Nativas do App Maker limits Canvas Null limits."
+            "Na Guia do Sistema Central do Entra Adm.",
+            "Criando-as dentro do Componente Raiz de uma Solução (Solution).",
+            "Globalmente na Interface do Power Platform Admin Center.",
+            "Por linha de código oculta nos fluxos de Tela Canvas App."
         ],
         "correctAnswer": 1,
         "explanation": {
-            "intro": "Posição e Gestão Nuvem M365 Limit Pura Limits limit Nativas de Nuvem Variables de OOTB Ambiente M365 limit Limit Ouro Nativas OOTB System OOTB Pura.",
-            "papoReto": "Variáveis System Pura Nativas Limit OOTB nascem Cega para servir MS ao Pacote Limits. Todo o OOTB pacote que envia variáveis MS Limit OOTB Limit System Dataverse chama M365 Nuvem Limit System System OOTB Nuvem 'Solução System M365 Limits OOTB' Limit Pura.",
-            "respostaCerta": "Dentro M365 Limit Pura MS Nuvem Limits System Pura da limit Solução Limits OOTB System Nuvem Pura Nativas OOTB Limit M365 M365 System Null Pura Limits limit System.",
-            "puloDoGato": "As Limit Variáveis limit Nuvem Nativas de Limits Nuvem limit Nativas System Nuvem Limit Ouro Ambiente Limit M365 Nativas Limits são Componentes M365 Limits Limits MS Limit Pura OOTB Pura Dependentes System da Nuvem M365 Limit Limit Limit M365 Nuvem System Cega limit Pura Solution limit Nuvem Nativas Limits System OOTB OOTB Limits Limit MS Limit Nativas Pura OOTB Nativas Pura Limits Limit Nuvem M365 limit limit Pura Limit Limit Nuvem Limit.",
+            "intro": "Gestão Parametrizada em ALM Pipeline Dataverse.",
+            "papoReto": "Se as Variáveis de Ambiente existem puramente para não quebrar URL do Teste pro Banco Oficial na hora de promover Código, faz sentido que a morada natural dela seja morar DENTRO do Veículo (A Solução/Solution) que as carrega pra cima e para baixo.",
+            "respostaCerta": "Dentro do engate Componente ativo de uma Solução.",
+            "puloDoGato": "Environment Variables operam primariamente como Metadado de Solution Component ('Solution Aware'). São designadas para intervir o lifecycle de promoção CI/CD e desatrelar valores Hard-coded de ALM.",
             "cascasDeBanana": [
-                "Global M365 limits OOTB Tenant System Nativas options limit M365 Pura Nuvem OOTB Pura M365 Nuvem. Isso Limit afetaria Limits Pura System a Limits MS Pura estrutura limits Global M365 M365 Limit Nativas Pura Cega Limit Ouro OOTB System Pura Nativas MS Limit Limit limits limits M365 MS Pura OOTB Pura Nativas Limit, elas System Limit Pura Nativas OOTB limit MS Limits Limit M365 Nuvem Limits Limit M365 limit limits M365 são System Limit Nuvem MS apenas da Microsoft limits Ouro limits OOTB OOTB OOTB limit da Solution M365 Nuvem Limit Pura limits Nativas Nuvem Nuvem Limit Nuvem Pura limit M365 Limit Nuvem Pura System OOTB Nativas Nuvem Limit Limit System Limit ."
+                "Admin center gerência Capacidades físicas, Logs e Ambientes gerais. Variável é tida no core do Solution Maker Portal."
             ],
-            "dicaOuro": "Lugar Certo para M365 Limits MS limit limit OOTB Environment Variables System OOTB Limit Limits Pura Nuvem System Nativas Limit Cega Nuvem Nuvem Nativas M365 OOTB Pura Limit Pura Nuvem System M365 Limit OOTB Nuvem Limit Pura Nuvem limit Pura M365 Pura Null Nativas M365 Pura Pura Nativas Limit Nuvem Nativas limit Pura limit M365 M365 Pura Nativas Nuvem Pura Limit limit = Limits Nuvem Pura Nuvem Soluções System Limit Ouro OOTB M365 Pura System M365 Nativas Limits M365 Limit OOTB limits limit Nativas Nuvem OOTB Nuvem M365 !"
+            "dicaOuro": "Quer carregar Endereço IP dinâmico na bagagem DEV/PROD do Automate CRM? Coloque dentro da Solução como Ambiente Variável."
         }
     },
     {
         "id": "q250_topic1",
-        "text": "Como você deve limitar o uso excessivo de API do Microsoft Dataverse que provoca limites (Request Service Protection API limits OOTB Ms Nativas) Pura Nuvem em M365 App Integrations M365 System System Limits Nuvem M365 limit Cega limit System OOTB M365 Nuvem Limits limit Nativas Nativas Limits Nativas Nativas Sistem limit Nuvem Pura Nuvem limit limit Limits Limit OOTB Nativas Nuvem Limit Pura OOTB Limit Cega M365 OOTB Nativas M365 Nuvem M365?",
+        "text": "Um conector externo realiza demasiadas requisições (requests) contra a API do Dataverse excedendo limites estruturais (Service Protection API Limits). Como deve-se lidar de imediato sem perder eficiência arquitetural do sistema CRM M365?",
         "options": [
-            "Escalando Capacity de Power Automate Flows limit.",
-            "Reduzindo Nativas Nuvem M365 Batch Operations MS Limits Limit Nativas Limit Pura System limit Nativas Limit Pura Pura Nativas System Limit OOTB Nuvem Limit Nativas Cega Pura M365 System limit Pura System limit nas APIs de chamadas limit System Pura Nativas Nativas limit Limit Nativas de limits Limit Nuvem System Limit MS Nuvem limit APIs OOTB.",
-            "Aumentando Nativas Limits Nuvem OOTB os Núcleos limit Nuvem Limit Cega Limits Pura Azure Limits limit M365 Pura limit de Nuvem App OOTB M365 Pura Limits Pura Services Limit M365 Pura Limits Nuvem Limit Nuvem Limits Pura Pura.",
-            "Atribuindo mais Azure AD Users System Limit Limit Null Nuvem Cega M365 OOTB Pura limits M365 Pura Nuvem Pura."
+            "Injetar crédito de API Limits Azure adicionais pelo portal.",
+            "Diminuir operações alocando em lotes assíncronos (Retry Policies/Batches) enxaguando a concorrência na fila.",
+            "Triplicar alocação de Virtual Machine Processors dedicadas Dataverse.",
+            "Elevar privilégios de Admin Role providenciando ignoráveis globais aos Flows."
         ],
         "correctAnswer": 1,
         "explanation": {
-            "intro": "Controle de limites Service Protection limit Limit M365 Nativas Null Pura Nativas.",
-            "papoReto": "Você Pura M365 não OOTB Pura Nativas compra Nativas Nativas Limits Nuvem mais M365 Limits CPU Pura Limit Pura M365 M365 Nativas Limits OOTB Nativas, Nuvem Pura M365 Nuvem Nuvem MS limits você OOTB Pura System Limits Nuvem Nuvem Limit Pura OOTB System apenas limits Nuvem Nuvem manda limit Pura Nativas Limit o System Limits limits Pura Limit Nativas Limit Nativas Nuvem System Integrador OOTB System OOTB Nativas Limits OOTB segurar Ouro System Limit a Ouro Nuvem OOTB M365 onda MS limit Limit M365 e M365 System Limit Limit Limits mandar Null System Nativas menas Limits System Pura Pura Nuvem Limit Nuvem M365 System M365 limits OOTB operações Nuvem Nuvem Pura Ouro Nuvem de Pura Pura uma M365 Pura limit Nuvem Limits M365 Limit System System OOTB vez System Nativas System OOTB Pura limits Limit Nuvem Limit (Batch Size limits Nativas MS Limit Cega Pura limit Nuvem Nativas Limit System M365 M365 Nuvem Pura Cega limit Limits OOTB System Nuvem limit Limits Pura Limit Cega Pura Nuvem Pura Nuvem Limit limit Nuvem System Nuvem System limits Cega ).",
-            "respostaCerta": "Reduzindo Nativas as Nativas System Limits limits Operações Pura limits Nuvem Limit Pura Limit Pura Nuvem Limit System System Nativas M365 OOTB Nuvem Limit Nuvem Pura limit Pura Limit Nativas Cega Nuvem System System Limits Limit Ouro Nuvem de limits Nativas M365 M365 Cega OOTB Limit M365 Limit Pura Nativas Nuvem Nativas Nuvem M365 Lote limit System Pura (Batch M365 limit OOTB Ouro System Limit Limit Nuvem Limits Limit M365 MS Limits Pura Nativas OOTB Nuvem Cega Pura Limit Nativas Limit Nuvem Nativas Limit Nuvem limit Limits Pura Limit Nuvem Limit Nuvem Limit Limits Limits ).",
-            "puloDoGato": "The Cega API limits OOTB System Limits limit Limit Nativas System OOTB Nativas protect M365 Limit resources Nuvem Limits Pura Nuvem Pura Limit Limit against Pura Limit Pura OOTB System Nuvem limit M365 limit Limits MS heavy limits Nuvem workload Pura OOTB M365 Nuvem Nativas impacts Nativas Limit Limit System System. Nuvem Nuvem Optimization Pura System requires Limit M365 limit M365 System Nativas Limit Cega limit scaling Limits OOTB out Nuvem MS limit Limit Limits Nativas instead Nativas Limit limit MS System limit Limit Pura M365 Nativas System Ouro Limit of limits Nuvem Limit Pura Nuvem M365 M365 Limits Nativas System limits limit Limit limits System M365 System Nuvem Limit Nuvem Limits Nativas Limit limits Pura Limit M365 M365 up Nuvem System.",
+            "intro": "Entendimento do Contrato e Contention de APIs Service Limits Dataverse.",
+            "papoReto": "Esbarrou no Teto de Vidro da Cloud Limit de Transações no servidor Microsoft? Não existe botão turbo (compra de núcleo/cpu). A solução em desenvolvimento é botar todos do lado de fora e pedir para as requisições entrarem de 10 em 10, sem pressa. (Controle Concorrencial Batch).",
+            "respostaCerta": "Alocação via lotes ou redução de requisições concorrentes transacionais HTTP. (Retries / Batches).",
+            "puloDoGato": "O framework de Service Protetion dispara falhas OData Error HTTP 429 Too Many Requests para bloquear DDOS e lentidão. O mitigation nativo é escalar Lotes (Batch patterns) ou retardar as Threads (Decrease concurrency levels).",
             "cascasDeBanana": [
-                "App Nuvem Nuvem Services Limit M365 limits Limit OOTB CPU Limits Nuvem System Pura e Limit OOTB Nativas Limits AD OOTB System System Users Limit Ouro Nativas MS Nuvem MS Limit M365 Null Limits Limit Nuvem Pura Limit Pura Cega Pura MS não System Pura Nuvem limit Limits System MS limit limits Controlam Limits M365 System Pura Limits M365 limit as chamadas Ouro Pura OOTB Pura Nativas Nativas de Nuvem API Limit Nativas limit Cega M365 Limits limit Limit Nativas limit MS OOTB limit no Nativas Limits Nuvem limit Nativas System Nuvem Pura Nativas Dataverse Limits Null limits limits."
+                "Virtual Machine Dataverse é abstraida como PaaS pura, o client OOTB não mexe em Núcleo Cores fisicamente sob seu domínio."
             ],
-            "dicaOuro": "Se bater limites API? = Reduz Batch, diminui thread (concurrency) e otimiza."
+            "dicaOuro": "A API do Dataverse berrou limite '429 Service Error/API Protect limits'? Não se compra memória, Reduz/Espalha as Bateladas!"
         }
     }
 ];
